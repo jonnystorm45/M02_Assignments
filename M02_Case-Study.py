@@ -8,12 +8,12 @@ def main():
     global Student_First_Name
     Student_Last_Name = input("Please Enter Student's Last Name or 'ZZZ' to End Program - ")
 
-    while Student_Last_Name == "ZZZ":
+    while Student_Last_Name.upper() == "ZZZ":
         print("Program Ended")
         break
         exit()
 
-    if Student_Last_Name.upper() != "ZZZ":
+    if Student_Last_Name != "ZZZ":
 
         Student_First_Name = input("PLease Enter Student's First Name - ")
 

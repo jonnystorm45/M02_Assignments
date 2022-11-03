@@ -13,7 +13,7 @@ def main():
         break
         exit()
 
-    if Student_Last_Name != "ZZZ":
+    if Student_Last_Name.upper() != "ZZZ":
 
         Student_First_Name = input("PLease Enter Student's First Name - ")
 
